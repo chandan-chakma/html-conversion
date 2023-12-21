@@ -5,7 +5,7 @@
   
 }
 .container{
-    background-image: url('/new-year-new-me//images/banner/banner1.png'); 
+    background-image: url('/images/banner/banner1.png'); 
     background-repeat: no-repeat;
     background-size: cover;
     width: 1400px;
@@ -83,10 +83,12 @@
 .failure h1{
     font-size: 40px;
     font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
 }
 .failure p{
     font-size: 16px;
     font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
 
 }
 
@@ -98,4 +100,74 @@
 .failure h4 {
     font-size:16px;
     font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
+}
+/* ====================================  */
+.myplans{
+    margin-top: 100px;
+}
+.myplans h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+.plans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.plan{
+    text-align: center;
+    margin-right: 70px;
+}
+.plan img{
+    width: 92.96px;
+
+}
+.plan h2{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+.plan p{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
+}
+/* ========================  */
+
+#callnow{
+    margin-top: 100px;
+    margin-left: 220px;
+    background-image: url("/images/watch.png");
+    width: 1140px;
+    height: 300px;
+}
+.gradiant{
+    background-image: url("/images/gradient2.png");
+    width: 1140px;
+    height: 300px;
+}
+.gradiant h1{
+    /* text-align: center; */
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+    color: #FFFFFF;
+}
+.gradiant button{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif; 
+    color: #F15B22;
+    width: 160px;
+    height: 60px;
+}
+.call{
+   padding-top: 30px;
+   padding-left: 30px;
 }
